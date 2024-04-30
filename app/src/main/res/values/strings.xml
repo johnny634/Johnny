@@ -1,0 +1,37 @@
+<resources>
+    <!--  Credenciales del aplicativo-->
+    <string name="app_name">Johnny</string>
+    <string name="developer">Johnny Grefa </string>
+    <string name="desarrollo">Desarrollado por: </string>
+    <string name="version">Version 1.0.0</string>
+
+    <!--  Credenciales login -->
+
+    <string name="titulo_login">Ingrese Sesion</string>
+    <string name="lbl_usuario">Usuario</string>
+    <string name="txt_usuario">Ingrese Usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="txt_password">Ingrese Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="lbl_crear_cuenta">No tienes cuenta?, Registrar</string>
+
+
+    <!--  Credenciales del registro-->
+    <string name="lbl_registrar">Regístrate</string>
+    <string name="txt_Correo">Correo electronico</string>
+    <string name="txt_Contraseña">Contraseña</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="txt_grefa">Ing. Johnny Grefa</string>
+    <string name="txt_Fer">Fernanda Gutierres</string>
+    <string name="txt_ceo">CEO Developers</string>
+    <string name="txt_ma">Manager</string>
+
+
+    <!--  Credenciales del eleccion-->
+
+
+
+    <!--  Ma datos-->
+
+
+</resources>
