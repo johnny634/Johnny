@@ -13,6 +13,7 @@
     <string name="lbl_password">Contraseña</string>
     <string name="txt_password">Ingrese Contraseña</string>
     <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_si">Siguiente</string>
     <string name="lbl_crear_cuenta">No tienes cuenta?, Registrar</string>
 
 
@@ -28,6 +29,7 @@
 
 
     <!--  Credenciales del eleccion-->
+    <string name="txt_creadores">Creadores de App</string>
 
 
 
