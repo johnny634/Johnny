@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/back_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modulo_consulta">
+
+
+    <!-- Menu de consulta -->
+
+
+    <TextView
+        android:id="@+id/tvAcademico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_menu"
+        android:textColor="#00BCD4"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="102dp"
+            android:layout_height="83dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/proveedor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="96dp"
+            android:layout_height="76dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/producto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="78dp"
+            android:layout_height="64dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/venta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="73dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/clientes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="105dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/report" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="80dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/iniciar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/card_background"
+        android:elevation="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAcademico"
+        app:layout_constraintVertical_bias="0.866">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="74dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#00BCD4"
+            app:srcCompat="@drawable/config" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -88,6 +88,7 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -96,6 +97,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/txt_Contraseña" />
     </com.google.android.material.textfield.TextInputLayout>
 
